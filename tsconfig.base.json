@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@aws-poc/feature-one": ["feature-one/src/index.ts"],
+      "@aws-poc/feature-two": ["feature-two/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

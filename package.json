@@ -2,7 +2,11 @@
   "name": "@aws-poc/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:eqt": "nx serve eqt",
+    "start:fi": "nx serve fi",
+    "build:all": "nx run-many --target=build --all"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.2.0",
